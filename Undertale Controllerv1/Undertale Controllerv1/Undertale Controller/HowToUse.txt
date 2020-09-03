@@ -1,0 +1,6 @@
+Hello if you need any help just read this!
+*WE WILL ADD A HELP COMMAND SOON!*
+exit = exits program
+
+
+echo MsgBox("Killed Undertale.")> messages.vbs
