@@ -1,11 +1,9 @@
 # BatchHacking
 These are my hacks, we will also learn how to make them! and batch learning.
 
-# HOW TO DOWNLOAD
-First download this respo as a zip, then download this [click me to download!](https://github.com/nonumbershere/BatchHacking/archive/master.zip)
-Unzip it move any hack to the desktop open it, have fun with it!
-
-## Have an idea? or a hack? leave a pull!
-
-# HOW TO MAKE
-a video is coming!
+# Download Undertale Controller
+[Download!](https://mega.nz/folder/20o1UZhK#wtfg1TPJh75f-uLtp84K4g)
+1. Click download as zip
+2. Unzip it to get full accses, And so it can work.
+3. Open undertale
+4. Use it!
