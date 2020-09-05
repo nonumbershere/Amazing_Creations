@@ -171,7 +171,7 @@ cd C:\Users\%username%\Downloads\Undertale Controllerv1\Undertale Controllerv1\U
 echo Found location.
 @copy "file0" "C:\Users\%username%\AppData\Local\UNDERTALE"
 @copy "file9" "C:\Users\%username%\AppData\Local\UNDERTALE"
-echo Done!
+echo Done! 
 cd C:\Users\%username%\AppData\Local\UNDERTALE
 echo Msgbox("Finished namefrisk!") > message.vbs
 start message.vbs
