@@ -1,12 +1,8 @@
-# BatchHacking
-These are my hacks, we will also learn how to make them! and batch learning.
-
-# Download Undertale Controller
-[Download(removed)](https://mega.nz/folder/u9pkkSIR#2X4OW9rNA36e3Gw8ZAVqFA)
-1. Click download as zip at the top right corner.
-2. Unzip it to get full accses, And so it can work.
-3. Open undertale
-4. Use it!
+# Downloading
+1. Download by clicking "Download as zip".
+2. Unzip it.
+3. Take out the mod.
+4. Use it (:
 
 IF YOU CANT DO THAT JUST USE THIS
 
