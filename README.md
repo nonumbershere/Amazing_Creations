@@ -4,10 +4,6 @@
 3. Take out the mod.
 4. Use it (:
 
-IF YOU CANT DO THAT JUST USE THIS
+# DISCLAIMER
 
-[download2](https://github.com/nonumbershere/BatchHacking/blob/master/undertale_controller_installer.EXE?raw=true)
-
-# Download File Editor
-NOT DONE!
-<h1>Enjoy!</h1>
+> I am not responsible for breaking your PC/Games.
