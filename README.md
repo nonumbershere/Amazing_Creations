@@ -9,6 +9,4 @@ Download as a zip
 
 - Download Undertale Controller [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/Undertalecontroller.rar?raw=true)
 Enjoy!
-# DISCLAIMER
-
-> I am not responsible for breaking your PC/Games.
+# MY MODS ARE 100% SAFE TO USE.
