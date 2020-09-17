@@ -1,9 +1,14 @@
 # Downloading
-1. Download by clicking "Download as zip".
+1. Download by clicking "Download as zip". or [download it here](https://github.com/nonumbershere/Amazing_Creations.git)
 2. Unzip it.
 3. Take out the mod.
 4. Use it (:
+## OR
+Download as a zip 
+- Download system32 controller [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/system32_controller.rar?raw=true)
 
+- Download Undertale Controller [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/Undertalecontroller.rar?raw=true)
+Enjoy!
 # DISCLAIMER
 
 > I am not responsible for breaking your PC/Games.
