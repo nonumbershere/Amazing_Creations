@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<HTA:APPLICATION 
+icon="data\img\ico.ico"
+         ID="objPath" 
+         APPLICATIONNAME="system32_controller"
+         SCROLL="yes"
+         NAVIGABLE="yes"
+         SINGLEINSTANCE="yes"
+            WINDOWSTATE="normal"
+         SHOWINTASKBAR="yes"
+         CAPTION="no"
+    >    
+    <title>System32 Controller</title>
+    <script src="data/scripts/script.js"></script>
+    <style type="text/css">
+        #Button4 {
+            height: 91px;
+            width: 258px;
+        }
+        .newStyle1 {
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+        function Runn() {
+            WshShell = new ActiveXObject("WScript.Shell");
+            WshShell.Run("c:/windows/system32/notepad.exe", 1, false);
+        }
+        function Runn2() {
+            var oShell = new ActiveXObject("Shell.Application");
+            oShell.ShellExecute("startnotepad++.bat", "", "", "open", "1");
+        }
+    </script>
+    <SCRIPT LANGUAGE=”VBScript”>
+    Sub ExitProgram
+        window.close()
+    End Sub
+</SCRIPT>
+    <SCRIPT Language=”VBScript”>
+    Dim intLeft
+    Dim intTop
+    Sub HideWindow
+        intLeft = window.screenLeft
+        intTop = window.screenTop
+        window.moveTo -2000,-2000
+        idTimer = window.setTimeout(“ShowWindow”, 5000, “VBScript”)
+    End Sub
+    Sub ShowWindow
+        window.moveTo intLeft,intTop
+        window.clearTimeout(idTimer)
+    End Sub
+</SCRIPT>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+        <p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <button id="Button3" class="auto-style3" type="button" value="Exit" onclick="exit();" style="font-family: Mojangles; background-color: #FFFFFF; font-size: 24px;" /> Exit</button>
+        </p>
+
+        <p id="edas" style="font-family: Mojangles; font-size: 31px; font-weight: 600; font-style: inherit; font-variant: small-caps; text-transform: capitalize; color: #FF0000; margin-left: 393px;" class="auto-style6">
+            &nbsp;starter</p>
+        <p style="background-color: #C5EDEB">
+        <button id="Button1" onclick="Runn();" class="auto-style1" type="button" value="Start Notepad" style="font-size: large; font-family: 'Arial Black'; font-style: oblique; font-weight: bolder; text-transform: uppercase; font-variant: small-caps; color: #FF00FF; height: 79px; margin-left: 212px;" />Start Notepad</button>
+            <input id="Button4" type="button" onclick="Runn2();" value="Start notepad++" alt="Button Start Notepad++" style="padding: inherit; background-image: none; background-color: #008000; visibility: visible; font-family: mojangles;" /></p>
+        
+        <hr />
+
+        <p id="edas0" style="font-family: Mojangles; font-size: 31px; font-weight: 600; font-style: inherit; font-variant: small-caps; text-transform: capitalize; color: #FF0000; margin-left: 358px;" class="auto-style6">
+            Controllers</p>
+        <hr style="width: 1px; margin-left: 0px; margin-top: 4px;" />
+        <p class="auto-style6" style="font-family: Mojangles; font-size: 31px; font-weight: 600; font-style: inherit; font-variant: small-caps; text-transform: capitalize; color: #FF0000; margin-left: 353px;">
+            coming soon</p>
+        <p class="auto-style6">
+            Made by&nbsp; Jonathan</p>
+        </body>
+</html>
