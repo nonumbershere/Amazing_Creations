@@ -3,7 +3,7 @@
 - If you deleted some BETA code DO NOT ASK US FOR IT BACK!
 
 # Allowed
-- Mods, hacking, modding, ETC
+- Modding
 
 # Copyright
 nah jk bro
