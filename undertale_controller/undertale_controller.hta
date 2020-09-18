@@ -1,0 +1,113 @@
+<hta:application
+    icon="data/img/ico.ico"
+    >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Undertale Controller0.1</title>
+    <style type="text/css">
+        #Button1 {
+            height: 42px;
+            width: 170px;
+        }
+        .auto-style1 {
+            margin-top: 48px;
+            text-decoration: underline;
+        }
+        button {
+          color: darkgray;
+            font-family: sans-serif;
+            font-weight: 100;
+            width: 31px;
+            margin-left: 800px;
+            margin-top: 0px;
+        }
+        .main {
+            color: darkgray;
+            font-family: sans-serif;
+            font-weight: 100;
+            margin-left: 40px;
+            margin-top: 8px;
+        }
+        body {
+            background: black;
+        }
+        #Select1 {
+            height: 106px;
+            width: 93px;
+            margin-left: 194px;
+        }
+        p {
+            color: red;
+            margin-left: 0px;
+        }
+        #Button2 {
+            height: 42px;
+            width: 154px;
+        }
+        #Button3 {
+            height: 42px;
+            width: 154px;
+        }
+        #Button3 {
+            height: 42px;
+            width: 154px;
+        }
+        #Button4 {
+            height: 42px;
+            width: 170px;
+        }
+        #Button5 {
+            width: 93px;
+            margin-left: 4px;
+        }
+        #Button6 {
+            height: 45px;
+            width: 163px;
+            margin-left: 40px;
+        }
+        #Text1 {
+            height: 43px;
+            width: 112px;
+        }
+        </style>
+    <script>    
+function nameFrisk() {
+            var oShell = new ActiveXObject("Shell.Application");
+    oShell.ShellExecute("start1.bat", "", "", "open", "1");
+    alert('Named to frisk!');
+        }
+        function infHP() {
+            var oShell = new ActiveXObject("Shell.Application");
+            oShell.ShellExecute("start2.bat", "", "", "open", "1");
+            alert('Infinite HP Activated.');
+        }
+        function infLVL() {
+            var oShell = new ActiveXObject("Shell.Application");
+            oShell.ShellExecute("start3.bat", "", "", "open", "1");
+            alert('Infinite LVL Activated.');
+        }
+    </script>
+    <script src="data/scripts/script1.js"></script>
+</head>
+<body>
+    <p class="auto-style1">
+		<button onclick="window.close();">Exit</button>
+        <input class="main" id="Button1" type="button" value="Rename Character To Frisk" style="color: darkgray; background-color: lightgray; height: 43px; width: 168px;" onclick="nameFrisk();" title="Renames the character to frisk" /><input id="Button2" onclick="infHP();" translate="no" type="button" value="Have infinite HP" style="font-family: 'Arial Black'; color: #C0C0C0; margin-left: 35px;" title="INF Hp" class="main" /><input id="Button3" onclick="infHP();" translate="no" type="button" value="Have infinite LVL" style="font-family: 'Arial Black'; color: #C0C0C0; margin-left: 42px;" onclick="infLVL();" title="INF Lvl"/> </p>
+    <p class="auto-style1">
+        <input class="main" id="Button4" type="button" value="Kill" style="color: darkgray; background-color: lightgray; height: 43px; width: 46px; margin-left: 39px; margin-right: 0px; margin-top: 0px;" onclick="kill();" title="Kills undertale" /></p>
+    <!--
+        FOR THE EXECUTE COMMAND.
+        executecommand
+        document.getElementById('executecommand')
+        -->
+    <p>
+        &nbsp;&nbsp;&nbsp; DEBUGER</p>
+    <p>
+        <input onclick="startConsole();" id="Button5" class="main" role="button" title="Debugs" type="button" value="Debug Console" /></p>
+    <p>
+		&nbsp;</p>
+    <p>
+        Made by Lapide.</p>
+
+</body>
+</html>
