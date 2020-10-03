@@ -12,6 +12,8 @@ Download as a zip
 - Download Undertale Controller [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/Undertalecontroller.rar?raw=true)
 
 - Download PROGRAM [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/program.zip?raw=true)
+
+- Download Undertale Controller CHEAT ENGINE VERSION [here](https://github.com/nonumbershere/Amazing_Creations/blob/master/Undertale%20Controller%20CHEATENGINE%20VERSION.rar?raw=true)
 Enjoy!
 # MY MODS ARE 100% SAFE TO USE. BUT BE CAREFUL USING THE UNDERTALE CONTROLLER ONE.
 
